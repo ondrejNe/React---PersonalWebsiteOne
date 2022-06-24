@@ -1,0 +1,40 @@
+/* ===================== Default settings ====================================================== */
+/* Font from google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+
+* { /* Default setting for everything */
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+
+:root { /* CSS variables for project */
+    --color-bg: #222629;
+    --color-white: rgb(255, 255, 255);
+    --color-black: rgb(0, 0, 0);
+    --color-first: #86C232;
+    --color-first-dark: #61892F;
+    --color-second: #6b6e70;
+    --color-second-dark: #474b4f;
+
+
+    --container-width-large: 75%;
+    --container-width-medium: 86%;
+    --container-width-small: 90%;
+    
+    --transition-default: all 400ms ease;
+}
+
+html {
+    scroll-behavior: smooth;
+    font-size: 100%;
+}
+
+::-webkit-scrollbar { /* No scrollbar to be found */
+    display: none;
+}
+/* ===================== Default settings ====================================================== */
